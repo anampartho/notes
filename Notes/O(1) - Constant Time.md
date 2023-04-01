@@ -3,8 +3,8 @@
 **`O(1)`** or **`constant time`** means that the algorithm takes the same time to run regardless of the data size.
 
 ## Code Examples
----
-##### Finding the first item on an array:
+
+### Finding the first item on an array:
 
 ```javascript
 const myArr = [1, 2, 3]
@@ -13,7 +13,7 @@ console.log(myArr[0])
 
 _Here, no matter how big **`myArr`** is, finding the first element of the array will always take the same amount of time. So, accessing the first item of an array has an `O(1)` time complexity or the algorithm is said to be **`constant time`** or **`O(1) time`**._
 
-##### Adding an item to an array:
+### Adding an item to an array:
 
 ```javascript
 const myArr = [0, 1, 2]

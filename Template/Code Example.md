@@ -1,6 +1,6 @@
 ## Code Examples
----
-##### Example Title
+
+### Example Title
 
 ```javascript
 

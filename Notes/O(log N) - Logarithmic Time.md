@@ -5,8 +5,8 @@ In **`O(log N)`** time complexity, as the input size grows, the number of operat
 In the Binary Search algorithm, the data passed to the algorithm decreases by roughly 50% each time through the algorithm. Because of which, this algorithm has a time complexity of **`O(log N)`**
 
 ## Code Examples
----
-##### Binary Search
+
+### Binary Search
 
 ```javascript
 const binarySearch = (sortedArray, key) => {

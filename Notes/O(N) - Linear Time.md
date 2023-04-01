@@ -16,8 +16,8 @@ Here we can see that **`arr1`** has **`2`** items and **`arr2`** has **`4`**. So
 *If for **`arr1`**, **`findInArray`** takes 2 seconds to run, then for **`arr2`**, **`findInArray`** will take 4 seconds to run. Because the time complexity of **`findInArray`** is **`O(N)`** or **`O(N) time`** or **`linear time`**.*
 
 ## Code Examples
----
-##### Finding an item in an array (linear search)
+
+### Finding an item in an array (linear search)
 
 ```javascript
 const arr1 = ['a', 'b'];

@@ -6,7 +6,7 @@ If we pass 3 data, then the algorithm will take **`3^2`** time to complete.
 
 ## Code Examples
 ---
-##### Bubble Sort
+### Bubble Sort
 
 ```javascript
 const bubbleSort = (arr) => {
