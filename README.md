@@ -1,0 +1,1 @@
+This folder is targetted solely to capture my notes while following [Coding Interview University](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)
