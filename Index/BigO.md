@@ -5,7 +5,7 @@
 3. [[BigO Notation]]
 4. Some BigO notations with examples
 	1. [[O(1) - Constant Time]]
-	2. [[O(N) - Linear Time]]
-	3. [[O(N square) - Quadratic Time]]
-	4. [[O(log N) - Logarithmic Time]]
-	5. [[O(n log N) - Linearithmic Time]]
+	2. [[O(n) - Linear Time]]
+	3. [[O(n square) - Quadratic Time]]
+	4. [[O(log n) - Logarithmic Time]]
+	5. [[O(n log n) - Linearithmic Time]]

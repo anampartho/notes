@@ -1,8 +1,8 @@
 #time-complexity #big-o 
 
-For the time complexity of **`O(N^2)`** an algorithm's time to complete will be proportional to the square of the amount of data.
+For the time complexity of $O(n^2)$ an algorithm's time to complete will be proportional to the square of the amount of data.
 
-If we pass 3 data, then the algorithm will take **`3^2`** time to complete.
+If we pass $3$ data, then the algorithm will take $3^2$ time to complete.
 
 ## Code Examples
 ---
@@ -24,7 +24,7 @@ const bubbleSort = (arr) => {
 }
 ```
 
-_In this example we see an implementation of **`bubble sort`** using the nested for loop. In this case, the algorithm takes **`n^2`** time where **`n = length of the array`**_
+_In this example we see an implementation of **`bubble sort`** using the nested for loop. In this case, the algorithm takes $n^2$ time where $n$ is the length of the array_
 
 ## See Also
 1. [Big O Notations](https://youtu.be/V6mKVRU1evU?t=532)
