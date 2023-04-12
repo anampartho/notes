@@ -1,3 +1,5 @@
+#install #typescript 
+
 ## Prerequisites
 
 1. [Node.js](https://nodejs.org/en) needs to be installed

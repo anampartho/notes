@@ -1,4 +1,4 @@
-#types #typescript 
+#types #typescript #type-inference #inference
 
 The automatic detection of the type of an expression is called `type inference`.
 

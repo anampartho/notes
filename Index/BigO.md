@@ -1,4 +1,4 @@
-#big-o #time-complexity 
+#big-o #time-complexity #index
 
 1. [[Time Complexity]]
 2. [[Asymptotic Notation]]

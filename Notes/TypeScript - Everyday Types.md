@@ -1,4 +1,4 @@
-#types #typescript #todo
+#types #typescript 
 
 ## The Primitives
 

@@ -1,8 +1,11 @@
-#todo
+#todo #index
+
 1. [[Notes/TypeScript]]
 2. [[TypeScript - Install]]
-3. [[TypeScript - Everyday Types]]
-4. [[TypeScript - Type Inference]]
+3. Types
+	1. [[TypeScript - Type Inference]]
+	2. [[TypeScript - Everyday Types]]
+	3. [[TypeScript - Object Types]]
 
 ## Questions
 1. 
