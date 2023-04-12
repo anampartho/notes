@@ -1,8 +1,8 @@
 #todo
 1. [[Notes/TypeScript]]
-2. [[Install TypeScript]]
-3. [[Types - TypeScript]]
-4. [[Type Inference]]
+2. [[TypeScript - Install]]
+3. [[TypeScript - Everyday Types]]
+4. [[TypeScript - Type Inference]]
 
 ## Questions
 1. 
