@@ -1,4 +1,5 @@
 ## Prerequisites
+
 1. [Node.js](https://nodejs.org/en) needs to be installed
 2. [Yarn](https://yarnpkg.com/) if you don't want to use [npm](https://npmjs.com/)
 
