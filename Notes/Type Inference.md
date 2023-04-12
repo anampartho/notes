@@ -26,3 +26,8 @@ window.onmousedown = function (mouseEvent) {
 	console.log(mouseEvent.kangaroo);
 };
 ```
+
+
+## See Also
+1. [Type inference - Wiki](https://en.wikipedia.org/wiki/Type_inference)
+2. [Type Inference - TypeScript](https://www.typescriptlang.org/docs/handbook/type-inference.html)
