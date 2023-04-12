@@ -8,7 +8,6 @@
 
 The main difference between these primitives in javascript and in typescript is: typescript types are checked during compilation and js types are checked during runtime.
 
-## Type Inference
 
 
 ## See Also
