@@ -1,4 +1,4 @@
 #java
 
-1. [[Java - Variables]]
-2. [[Java - Data Types]]
+1. [[01. Variables]]
+2. [[02. Data Types]]
