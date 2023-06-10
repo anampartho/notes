@@ -43,3 +43,6 @@ int a = 10;
 int a = 20;
 // ERROR: java: variable a is already defined in method main(java.lang.String[])
 ```
+
+## See Also
+1. [[Java - Data Types]]
