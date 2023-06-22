@@ -1,0 +1,3 @@
+Garbage collection is process where a garbage collector destroys unused/unreferenced objects from the heap in order to free up the memory of the heap.
+
+Lets say, we created a variable which holds a reference to an object. For some reason, we change the value of that variable, so that it no longer contains the reference. If the programmer does not destroy the object explicitly then there will be a memory leak. Garbage Collectors tries to prevent this situation and removes the unused/unreferenced object to free up memory. 
