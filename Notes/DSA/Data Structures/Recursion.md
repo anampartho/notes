@@ -7,7 +7,7 @@ Recursion has two phases. One is Ascending and Descending phase.
 
 ## Code Examples
 
-### Factorial Function
+### Find factorial of `n`
 
 In the following examples, we have defined a function named `factorial`, which calculates the factorial of the argument passed into it. It is a recursive function because, based on a condition, the function calls itself.
 
@@ -23,9 +23,9 @@ public class Main {
 	public static int factorial(int n) {
 		if (n > 0) {
 			return n * factorial(n - 1);
-		} else {
-			return 1;
 		}
+
+		return 1;
 	}
 }
 ```
@@ -36,9 +36,9 @@ public class Main {
 const factorial = (n) => {
 	if (n > 0) {
 		return n * factorial(n - 1);
-	} else {
-		return 1;
 	}
+
+	return 1;
 }
 
 console.log(`Factorial of 10 is ${factorial(10)}`);
@@ -49,10 +49,10 @@ console.log(`Factorial of 10 is ${factorial(10)}`);
 
 ```python
 def factorial(n):
-	if num > 0:
+	if n > 0:
 		return n * factorial(n - 1)
-	else:
-		return 1
+
+	return 1
 
 num = 10
 print("Factorial of ", num, " is ", factorial(num))
@@ -69,4 +69,54 @@ graph TB
 	E --> F((1))
 	E --> G((factorial 0))
 	G --> H((0))
+```
+
+### Find sum of  `0` to `n`
+
+- Java:
+
+```java
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Sum of 0 to 10 is " + sum(10));
+		// Output: Sum of 0 to 10 is 55
+	}
+
+	public static int sum(int n) {
+		if (n > 0) {
+			return n + sum(n - 1);
+		}
+
+		return 0;
+	}
+}
+```
+
+- JS:
+
+```javascript
+const sum = (n) => {
+	if (n > 0) {
+		return n + sum(n - 1);
+	}
+
+	return 0;
+}
+
+console.log(`Sum of 0 to 10 is ${sum(10)}`);
+// Output: Sum of 0 to 10 is 55
+```
+
+- Python:
+
+```python
+def sum(n):
+	if n > 0:
+		return n * sum(n - 1)
+
+	return 1
+
+num = 10
+print("Sum of 0 to ", num, " is ", sum(num))
+# Output: Sum of 0 to 10 is 55
 ```
