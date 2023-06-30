@@ -15,7 +15,7 @@ Recursion has two phases. One is Ascending and Descending phase.
 
 ### Tail Recursion
 
-If a function calls itself, and the recursive call is the last statement of that function and no other operation is remaining, then it is called a tail recursion.
+If a function calls itself, and the recursive call is the last statement of that function and no other operation is remaining, then it is called a tail recursion. Most of the time, loops are better than tail recursion.
 
 ### Head Recursion
 
@@ -27,7 +27,7 @@ If a function has more than one call to itself then it is called a tree recursio
 
 ### Nested Recursion
 
-If two or more functions call each other an create a cycle, then it is a nested recursion.
+If two or more functions call each other an create a cycle, then it is a nested recursion. For example, `function a` calls `function b` and `function b` calls `function c` and ultimately `function c` calls `function a` then it is a nested recursion.
 
 
 ## Code Examples
