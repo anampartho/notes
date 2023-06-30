@@ -5,6 +5,31 @@ Recursion has two phases. One is Ascending and Descending phase.
 1. In the function body, before calling itself, if there is a statement, that is run at function calling time. This is the ascending phase.
 2. If any operation has to be done based on the return value of the function or any other operation has to be done after a function call has ended, that is done on the return time or the descending phase.
 
+## Types of Recursion
+
+1. Tail Recursion
+2. Head Recursion
+3. Tree Recursion
+4. Indirect Recursion
+5. Nested Recursion
+
+### Tail Recursion
+
+If a function calls itself, and the recursive call is the last statement of that function and no other operation is remaining, then it is called a tail recursion.
+
+### Head Recursion
+
+If a function calls itself before any other statement, then it is a head recursion.
+
+### Tree Recursion
+
+If a function has more than one call to itself then it is called a tree recursion.
+
+### Nested Recursion
+
+If two or more functions call each other an create a cycle, then it is a nested recursion.
+
+
 ## Code Examples
 
 ### Find factorial of `n`
