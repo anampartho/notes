@@ -25,7 +25,7 @@ If a function calls itself before any other statement, then it is a head recursi
 
 If a function has more than one call to itself then it is called a tree recursion.
 
-### Nested Recursion
+### Indirect Recursion
 
 If two or more functions call each other an create a cycle, then it is a nested recursion. For example, `function a` calls `function b` and `function b` calls `function c` and ultimately `function c` calls `function a` then it is a nested recursion.
 
