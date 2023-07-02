@@ -29,6 +29,10 @@ If a function has more than one call to itself then it is called a tree recursio
 
 If two or more functions call each other an create a cycle, then it is a nested recursion. For example, `function a` calls `function b` and `function b` calls `function c` and ultimately `function c` calls `function a` then it is a nested recursion.
 
+### Nested Recursion
+
+If a recursive function passes a parameter as a recursive call, then it is a nested recursion.
+
 
 ## Code Examples
 
