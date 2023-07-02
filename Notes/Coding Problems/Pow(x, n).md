@@ -1,4 +1,4 @@
-#leet-code #recursion #loop #medium
+#leetcode #recursion #loop #medium
 
 # Details
 
@@ -28,11 +28,11 @@ Explanation: 2-2 = 1/22 = 1/4 = 0.25
 
 **Constraints:**
 
-- `-100.0 < x < 100.0`
-- `-231 <= n <= 231-1`
-- `n` is an integer.
-- Either `x` is not zero or `n > 0`.
-- `-104 <= xn <= 104`
+-  $-100.0 < x < 100.0$
+- $-2^{31} <= n <= 2^{31-1}$
+- $n$ is an integer.
+- Either $x$ is not zero or $n > 0$.
+- $-10^4 <= xn <= 10^4$
 
 # Solution
 
@@ -105,3 +105,7 @@ class Solution:
         
         return x * self.myPow(x * x, (n - 1) / 2)
 ```
+
+
+## See Also
+1. https://leetcode.com/problems/powx-n/
