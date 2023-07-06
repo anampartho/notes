@@ -20,6 +20,12 @@ Explanation: 1 + 2 + 3 + 4 + 5 = 15
 
 # Solution
 
+### Using Loops
+
+### Using Recursion
+
+### Using Formula
+
 ```java
 public class Main {
 	public static void main(String[] args) {
