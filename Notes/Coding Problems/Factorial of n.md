@@ -26,46 +26,61 @@ In the following examples, we have defined a function named `factorial`, which c
 public class Main {
 	public static void main(String[] args) {
 		System.out.println("Factorial of 10 is " + factorial(10));
-		// Output: Factorial of 10 is 3628800
 	}
 
 	public static int factorial(int n) {
-		if (n > 0) {
-			return n * factorial(n - 1);
+		if (n <= 0) {
+			return 1;
 		}
 
-		return 1;
+		return n * factorial(n - 1);
 	}
 }
+```
+
+**Output:**
+
+```bash
+Factorial of 10 is 3628800
 ```
 
 ### JavaScript
 
 ```javascript
 const factorial = (n) => {
-	if (n > 0) {
-		return n * factorial(n - 1);
+	if (n <= 0) {
+		return 1;
 	}
 
-	return 1;
+	return n * factorial(n - 1);
 }
 
 console.log(`Factorial of 10 is ${factorial(10)}`);
-// Output: Factorial of 10 is 3628800
+```
+
+**Output:**
+
+```bash
+Factorial of 10 is 3628800
 ```
 
 ### Python
 
 ```python
 def factorial(n):
-	if n > 0:
-		return n * factorial(n - 1)
+	if n <= 0:
+		return 1
 
-	return 1
+	return n * factorial(n - 1)
 
 num = 10
 print("Factorial of ", num, " is ", factorial(num))
-# Output: Factorial of 10 is 3628800
+```
+
+**Output:**
+
+```bash
+Factorial of 10 is 3628800
 ```
 
 ## Trace
