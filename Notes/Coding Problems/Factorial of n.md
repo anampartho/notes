@@ -29,7 +29,7 @@ public class Main {
 	}
 
 	public static int factorial(int n) {
-		if (n <= 0) {
+		if (n <= 0 || n == 1) {
 			return 1;
 		}
 
@@ -48,7 +48,7 @@ Factorial of 10 is 3628800
 
 ```javascript
 const factorial = (n) => {
-	if (n <= 0) {
+	if (n <= 0 || n == 1) {
 		return 1;
 	}
 
@@ -68,7 +68,7 @@ Factorial of 10 is 3628800
 
 ```python
 def factorial(n):
-	if n <= 0:
+	if n <= 0 || n == 1:
 		return 1
 
 	return n * factorial(n - 1)
