@@ -24,7 +24,7 @@ Recursion has two phases. One is Ascending and Descending phase.
 
 ### Tail Recursion
 
-If a function calls itself, and the recursive call is the last statement of that function and no other operation is remaining, then it is called a tail recursion. Most of the time, loops are better than tail recursion.
+If a function calls itself, and the recursive call is the last statement of that function and no other operation is remaining, then it is called a tail recursion. Most of the time, loops are better than tail recursion because the space complexity can be lower in loops.
 
 ### Head Recursion
 
