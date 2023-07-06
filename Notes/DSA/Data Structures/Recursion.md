@@ -1,4 +1,13 @@
-If a function calls itself inside the function body, then it is called a recursive function. There must be a condition inside the function body, so that the recursive call to itself can stop. Without the condition, there will be an infinite loop of function calls.
+Recursion is a method, where a complex problem is broken down into smaller problems and based on the solution of those smaller problems the complex is solved. So a solution to a complex problem depends on the solution of the smaller problems derived from the complex problem. 
+
+In basic terms in programming, if a function calls itself inside the function body, then it is called a recursive function. There must be a base condition inside the function body, so that the recursive call to itself can stop. Without the condition, there will be an infinite loop of function calls.
+
+This term is used in mathematics rather frequently. For example:
+- $n^{th}$ Factorial:  $n! = n * (n - 1)!$ - here, we find the factorial of $n$ by getting the factorial of $n - 1$ first, and to get the factorial of $n - 1$ it will also try to get the factorial of $n - 2$ so on and so forth. This is a recursive function call.
+- $n^{th}$ Fibonacci: $F(n) = F(n - 1) + F(n - 2)$ - in this, the $n^{th}$ fibonacci depends on the fibonacci of $n - 1$ and $n - 2$. So we are breaking down the problem into smaller problems.
+
+
+## Phases
 
 Recursion has two phases. One is Ascending and Descending phase.
 
@@ -36,69 +45,7 @@ If a recursive function passes a parameter as a recursive call, then it is a nes
 
 ## Code Examples
 
-### Find factorial of `n`
-
-In the following examples, we have defined a function named `factorial`, which calculates the factorial of the argument passed into it. It is a recursive function because, based on a condition, the function calls itself.
-
-- Java:
-
-```java
-public class Main {
-	public static void main(String[] args) {
-		System.out.println("Factorial of 10 is " + factorial(10));
-		// Output: Factorial of 10 is 3628800
-	}
-
-	public static int factorial(int n) {
-		if (n > 0) {
-			return n * factorial(n - 1);
-		}
-
-		return 1;
-	}
-}
-```
-
-- JS
-
-```javascript
-const factorial = (n) => {
-	if (n > 0) {
-		return n * factorial(n - 1);
-	}
-
-	return 1;
-}
-
-console.log(`Factorial of 10 is ${factorial(10)}`);
-// Output: Factorial of 10 is 3628800
-```
-
-- Python
-
-```python
-def factorial(n):
-	if n > 0:
-		return n * factorial(n - 1)
-
-	return 1
-
-num = 10
-print("Factorial of ", num, " is ", factorial(num))
-# Output: Factorial of 10 is 3628800
-```
-
-Trace of the `factorial` function when called with an argument of `3`:
-```mermaid
-graph TB
-	A((factorial 3)) --> B((3))
-	A-->C((factorial 2))
-	C --> D((2))
-	C --> E((factorial 1))
-	E --> F((1))
-	E --> G((factorial 0))
-	G --> H((0))
-```
+1. [[Factorial of n]]
 
 ### Find sum of  `0` to `n`
 
