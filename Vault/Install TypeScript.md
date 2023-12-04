@@ -32,3 +32,7 @@ npx tsc
 ## or
 tsc filename
 ```
+
+---
+# References
+1. [TypeScript: How to set up TypeScript](https://www.typescriptlang.org/download)
