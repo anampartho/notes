@@ -1,7 +1,7 @@
 #todo #index
 
-1. [[Notes/TypeScript]]
-2. [[TypeScript - Install]]
+1. [[old_backup/Notes/TypeScript]]
+2. [[Install TypeScript]]
 3. Types
 	1. [[TypeScript - Type Inference]]
 	2. [[TypeScript - Everyday Types]]
