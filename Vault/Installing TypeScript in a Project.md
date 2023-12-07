@@ -5,12 +5,11 @@ Tags: #typescript/install
 
 # Installing TypeScript in a Project
 
-First we need to [[How to Initialize an JS Project|initialize the project]].
+First we need to [[How to Initialize an JS Project|initialize the project]]. Then we will add a simple `ts` file under `src/index.ts`.
 
 Then we will install [[TypeScript]]:
 
-```
-## Install typescript
+```bash
 yarn add typescript --dev
 ```
 
