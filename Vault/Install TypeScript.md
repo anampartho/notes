@@ -12,14 +12,7 @@ Tags: #typescript/install
 
 ## In a Project
 
-```bash
-## Install typescript
-yarn add typescript --dev
-
-## Run the typescript compiler
-yarn tsc
-```
-
+[[Installing TypeScript in a Project]]
 ## Global
 
 ```bash

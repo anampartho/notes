@@ -1,1 +1,2 @@
-1. [[Install TypeScript]]
+1. [[What is TypeScript?]]
+2. [[Install TypeScript]]
