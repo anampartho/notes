@@ -1,7 +1,7 @@
 07-12-2023 01:40 PM
 
 Status: #idea
-Tags: #typescript/install 
+Tags: #typescript/install
 
 # Installing TypeScript in a Project
 
@@ -42,6 +42,7 @@ Add a `tsconfig.json` file at the `root` folder of the project and add some basi
 }
 ```
 
+Now we can run the compiler using `yarn dev`. This will watch the `src/index.ts` file and compile that file on change.
 
 ---
 # References
