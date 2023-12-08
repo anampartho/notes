@@ -1,0 +1,14 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Vault",
+  "attachmentFolderPath": "Files",
+  "focusNewTab": true,
+  "propertiesInDocument": "visible",
+  "showInlineTitle": false,
+  "userIgnoreFilters": [
+    "old_backup/"
+  ],
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "tabSize": 2
+}

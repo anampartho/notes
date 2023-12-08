@@ -2,6 +2,9 @@
 .vscode
 
 # Obsidian Files
-.obsidian
+.obsidian/plugins
+.obsidian/themes
+.obsidian/workspace.json
+.obsidian/appearance.json
 
 .DS_Store

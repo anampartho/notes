@@ -1,0 +1,12 @@
+{
+  "workspace:new-tab": [],
+  "workspace:undo-close-pane": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ]
+}
