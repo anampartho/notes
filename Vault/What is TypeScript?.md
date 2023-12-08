@@ -9,4 +9,4 @@ Tags: #typescript
 
 ---
 # References
-1. [[TypeScript Fundamentals, v3#Introduction]]
+1. [[TypeScript Fundamentals, v3#01 Introduction]]
