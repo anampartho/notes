@@ -47,4 +47,4 @@ Now we can run the compiler using `yarn dev`. This will watch the `src/index.ts`
 ---
 # References
 
-1. [[Install TypeScript#In a Project]]
+1. [[TypeScript Fundamentals, v3#02 Setup]]]
