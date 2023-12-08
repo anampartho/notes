@@ -1,29 +1,36 @@
-tag: #course
-title: "TypeScript Fundamentals, v3"
-url: https://frontendmasters.com/courses/typescript-v3/
-service: Frontend Masters
-created: 2023-12-06 23:20:37
-updated: 2023-12-06 23:20:37
-
----
-
 # TypeScript Fundamentals, v3
 
-## Introduction
+> [!info]- Course Info
+> **Title:** "TypeScript Fundamentals, v3"
+> **URL:** https://frontendmasters.com/courses/typescript-v3/
+> **Created At:** 2023-12-06 23:20:37
+> **Updated At:** 2023-12-06 23:20:37
 
-1. [[What is TypeScript?]]
-2. [[Why use TypeScript?]]
+## 01: Introduction
+---
+- Introduction
+	- [[What is TypeScript?]]
+	- [[Why use TypeScript?]]
 
-## Setup
+## 02: Setup
+---
+- Compiling a TypeScript Program
+	- [[Install TypeScript]]
+	- [[Installing TypeScript in a Project]]
+- Variables & Values
+	- [[Variable Declarations and Inference in TypeScript]]
 
-1. [[Install TypeScript]]
+## 03: Type Categories
+---
 
-## Type Categories
+## 04: Functions
+---
 
-## Functions
+## 05: Types & Values
+---
 
-## Types & Values
+## 06: Generics
+---
 
-## Generics
-
-## Wrapping Up
+## 07: Wrapping Up
+---
